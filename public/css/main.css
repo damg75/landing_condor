@@ -81,3 +81,17 @@
     .challenges__main__text {
       text-align: right;
       max-width: 448px; }
+
+.footer {
+  height: 51px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .footer__main {
+    padding-left: 6rem;
+    padding-right: 6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.88rem; }
