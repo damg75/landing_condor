@@ -6,6 +6,8 @@ body {
   color: rgba(0, 0, 0, 0.65);
   font-variant: tabular-nums;
   font-feature-settings: "tnum", "tnum";
+  display: flex;
+  flex-direction: column;
 }
 ::-webkit-scrollbar {
   width: 20 px;
