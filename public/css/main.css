@@ -70,4 +70,14 @@
 
 .challenges {
   min-width: 100%;
-  min-height: 452px; }
+  min-height: 622px; }
+  .challenges__main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; }
+    .challenges__main__image {
+      max-width: 512px; }
+    .challenges__main__text {
+      text-align: right;
+      max-width: 448px; }

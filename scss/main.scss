@@ -88,5 +88,18 @@
 
 .challenges {
   min-width: 100%;
-  min-height: 452px;
+  min-height: 622px;
+  &__main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    &__image {
+      max-width: 512px;
+    }
+    &__text {
+      text-align: right;
+      max-width: 448px;
+    }
+  }
 }
