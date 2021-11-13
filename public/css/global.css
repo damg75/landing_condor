@@ -31,7 +31,7 @@ body {
   background-color: red;
 }
 
-.generic_title {
+.generic-title {
   font-size: 1.875rem;
   font-weight: 800;
   color: #d69e2e;
@@ -61,3 +61,9 @@ body {
 .cursor-pointer {
   cursor: pointer;
 }
+
+.text-grey {
+  color: #41546c;
+}
+
+
