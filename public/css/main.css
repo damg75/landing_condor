@@ -15,19 +15,29 @@
     .header__top__button_container__button {
       cursor: pointer;
       color: #d69e2e;
-      margin-left: 0.5 rem;
-      margin-right: 0.5 rem;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
       background-color: transparent;
       border: 1 px solid #f9ae17;
       box-sizing: border-box;
-      border-radius: 6 px; }
+      border-color: #f9ae17;
+      border-radius: 6px;
+      padding: 1px 6px 1px 6px;
+      min-height: 30px;
+      font-weight: 400;
+      font-size: 14px; }
       .header__top__button_container__button_yellow {
         cursor: pointer;
         color: #000;
-        margin-left: 0.5 rem;
-        margin-right: 0.5 rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
         background: #f9ae17;
-        border-radius: 6 px; }
+        border-radius: 6px;
+        border-color: #767676;
+        padding: 1px 6px 1px 6px;
+        min-height: 30px;
+        font-weight: 400;
+        font-size: 14px; }
   .header__bottom {
     display: flex;
     flex-direction: row;
