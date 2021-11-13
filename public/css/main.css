@@ -34,10 +34,4 @@
     align-items: center;
     justify-content: center; }
     .header__bottom__text {
-      background-color: red;
       max-width: 28rem; }
-      .header__bottom__text__title {
-        font-size: 1.875rem;
-        font-weight: 800;
-        color: #d69e2e;
-        margin-bottom: 15px; }
