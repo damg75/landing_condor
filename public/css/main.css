@@ -35,3 +35,15 @@
     justify-content: center; }
     .header__bottom__text {
       max-width: 28rem; }
+
+.connect {
+  min-width: 100%;
+  min-height: 620px; }
+  .connect__main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; }
+    .connect__main__text {
+      text-align: right;
+      max-width: 448px; }

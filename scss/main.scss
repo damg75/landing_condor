@@ -44,3 +44,18 @@
     }
   }
 }
+
+.connect {
+  min-width: 100%;
+  min-height: 620px;
+  &__main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    &__text {
+      text-align: right;
+      max-width: 448px;
+    }
+  }
+}
