@@ -54,7 +54,7 @@
   position: absolute; }
   .pools__main {
     position: relative;
-    top: -120px;
+    top: -126px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -66,3 +66,5 @@
       .pools__main__image-container__desktop_image {
         max-width: 512px;
         z-index: 10; }
+    .pools__main__text {
+      max-width: 448px; }
