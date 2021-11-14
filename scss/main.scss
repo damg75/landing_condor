@@ -173,7 +173,68 @@
 }
 /////media queries
 
-@media only screen and (min-width: 500px) and (max-width: 767px) {
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .header {
+    &__bottom {
+      &__image {
+        max-width: 100%;
+      }
+      &__text {
+        &__message {
+          &__store-image {
+            min-width: 150px;
+          }
+        }
+      }
+    }
+  }
+
+  .connect {
+    max-height: 590px;
+    &__main {
+      &__image-container {
+        img {
+          min-width: 100vw;
+        }
+        position: relative;
+        top: 10px;
+      }
+    }
+  }
+
+  .pools {
+    min-width: 100%;
+    max-height: 100%;
+    &__main {
+      margin-top: 10rem;
+      &__image-container {
+        &__mobile_image {
+          display: none;
+        }
+        &__desktop_image {
+          display: block;
+          max-width: 100vw;
+        }
+      }
+    }
+  }
+
+  .challenges {
+    min-height: 100%;
+    &__main {
+      margin-top: 12rem;
+      &__image {
+        max-width: 100vw;
+      }
+      &__text {
+        text-align: center;
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 599px) {
   .header {
     &__bottom {
       &__image {
@@ -223,10 +284,6 @@
     min-height: 100%;
     &__main {
       margin-top: 12rem;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
       &__image {
         max-width: 100vw;
       }
