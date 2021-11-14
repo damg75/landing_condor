@@ -174,8 +174,21 @@
 /////media queries
 
 @media only screen and (min-width: 500px) and (max-width: 767px) {
+  .header {
+    &__bottom {
+      &__image {
+        max-width: 100%;
+      }
+      &__text {
+        &__message {
+          &__store-image {
+            min-width: 150px;
+          }
+        }
+      }
+    }
+  }
 }
-
 
 @media only screen and (min-width: 767px) {
   .mobile_padding {

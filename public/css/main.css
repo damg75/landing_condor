@@ -137,6 +137,12 @@
     .footer__main__terms {
       margin-top: 1rem; }
 
+@media only screen and (min-width: 500px) and (max-width: 767px) {
+  .header__bottom__image {
+    max-width: 100%; }
+  .header__bottom__text__message__store-image {
+    min-width: 150px; } }
+
 @media only screen and (min-width: 767px) {
   .mobile_padding {
     padding: 0px 0px 0px 0px; }
