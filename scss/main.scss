@@ -207,13 +207,6 @@
     max-height: 100%;
     &__main {
       margin-top: 2rem;
-      position: relative;
-      top: 250px;
-      display: flex;
-      flex-direction: column-reverse;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
       &__image-container {
         &__mobile_image {
           display: none;
@@ -223,7 +216,22 @@
           max-width: 100vw;
         }
       }
+    }
+  }
+
+  .challenges {
+    min-height: 100%;
+    &__main {
+      margin-top: 12rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      &__image {
+        max-width: 100vw;
+      }
       &__text {
+        text-align: center;
         max-width: 100%;
       }
     }
