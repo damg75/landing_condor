@@ -15,8 +15,13 @@
     .header__top img {
       width: 128px; }
     .header__top__button_container {
-      margin-top: 1rem; }
+      margin-top: 1rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-content: center; }
       .header__top__button_container__button {
+        width: 120px;
         cursor: pointer;
         color: #d69e2e;
         margin-left: 0.5rem;
@@ -31,6 +36,7 @@
         font-weight: 400;
         font-size: 14px; }
         .header__top__button_container__button_yellow {
+          width: 120px;
           cursor: pointer;
           color: #000;
           margin-left: 0.5rem;
