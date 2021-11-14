@@ -9,6 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: rgb(21, 32, 43);
+  min-width: 100%;
 }
 ::-webkit-scrollbar {
   width: 20px;
@@ -51,6 +52,10 @@ body {
 
 .margin-top {
   margin-top: 1rem;
+}
+
+.margin-top-2 {
+  margin-top: 2rem;
 }
 
 .margin-left {

@@ -43,6 +43,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: center; }
+    .header__bottom__image {
+      max-width: 512px; }
     .header__bottom__text {
       max-width: 28rem; }
 
@@ -57,6 +59,8 @@
     .connect__main__text {
       text-align: right;
       max-width: 448px; }
+    .connect__main__image-container {
+      max-width: 512px; }
 
 .pools {
   min-width: 100%;
@@ -110,3 +114,83 @@
       .footer__main a:hover {
         cursor: pointer;
         color: #1890ff; }
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .mobile_padding {
+    padding: 0 40px 0 40px; }
+  .header {
+    width: 100%; }
+    .header__top {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      .header__top img {
+        width: 128px; }
+      .header__top__button_container {
+        margin-top: 1rem; }
+    .header__bottom {
+      margin-top: 1rem;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      text-align: center; }
+      .header__bottom__image {
+        max-width: 550px; }
+      .header__bottom__text {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; }
+        .header__bottom__text__message {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center; }
+          .header__bottom__text__message__store-image {
+            min-width: 160px; }
+  .connect {
+    min-width: 100%;
+    min-height: 649px;
+    max-height: 649px; }
+    .connect__main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      .connect__main__text {
+        text-align: center;
+        max-width: 100%; }
+      .connect__main__image-container {
+        max-width: 544px;
+        position: relative;
+        top: 35px; }
+  .pools {
+    margin-top: 3rem;
+    min-width: 100%;
+    max-height: 100%; }
+    .pools__main {
+      position: relative;
+      top: 126px;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center; }
+      .pools__main__text {
+        max-width: 100%; }
+  .challenges {
+    min-width: 100%;
+    min-height: 622px; }
+    .challenges__main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      .challenges__main__image {
+        max-width: 512px; }
+      .challenges__main__text {
+        text-align: right;
+        max-width: 448px; } }
