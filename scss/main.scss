@@ -316,34 +316,7 @@
         width: 128px;
       }
       &__button_container {
-        &__button {
-          cursor: pointer;
-          color: #d69e2e;
-          margin-left: 0.5rem;
-          margin-right: 0.5rem;
-          background-color: transparent;
-          border: 1 px solid #f9ae17;
-          box-sizing: border-box;
-          border-color: rgb(249, 174, 23);
-          border-radius: 6px;
-          padding: 1px 6px 1px 6px;
-          min-height: 30px;
-          font-weight: 400;
-          font-size: 14px;
-          &_yellow {
-            cursor: pointer;
-            color: #000;
-            margin-left: 0.5rem;
-            margin-right: 0.5rem;
-            background: #f9ae17;
-            border-radius: 6px;
-            border-color: rgb(118, 118, 118);
-            padding: 1px 6px 1px 6px;
-            min-height: 30px;
-            font-weight: 400;
-            font-size: 14px;
-          }
-        }
+        margin-bottom: 0.5rem;
       }
     }
     &__bottom {
@@ -351,11 +324,21 @@
       flex-direction: row;
       align-items: center;
       justify-content: center;
+      text-align: left;
       &__image {
         max-width: 512px;
       }
       &__text {
         max-width: 28rem;
+        &__message {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          &__store-image {
+            min-width: 150px;
+          }
+        }
       }
     }
   }
@@ -373,7 +356,11 @@
         max-width: 448px;
       }
       &__image-container {
-        max-width: 512px;
+        img {
+          max-width: 448px;
+          display: block;
+        }
+        position: static;
       }
     }
   }
@@ -383,22 +370,24 @@
     max-height: 452px;
     &__main {
       position: relative;
-      top: -126px;
+      top: -20px;
       display: flex;
       flex-direction: row;
       align-items: center;
       justify-content: center;
       &__image-container {
-        z-index: 10;
+        // z-index: 10;
         &__mobile_image {
           display: none;
         }
         &__desktop_image {
-          max-width: 512px;
+          display: block;
+          max-width: 448px;
           z-index: 10;
         }
       }
       &__text {
+        text-align: left;
         max-width: 448px;
       }
     }
@@ -408,6 +397,7 @@
     min-width: 100%;
     min-height: 622px;
     &__main {
+      margin-top: 0;
       display: flex;
       flex-direction: row;
       align-items: center;

@@ -218,41 +218,25 @@
       justify-content: space-between; }
       .header__top img {
         width: 128px; }
-      .header__top__button_container__button {
-        cursor: pointer;
-        color: #d69e2e;
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
-        background-color: transparent;
-        border: 1 px solid #f9ae17;
-        box-sizing: border-box;
-        border-color: #f9ae17;
-        border-radius: 6px;
-        padding: 1px 6px 1px 6px;
-        min-height: 30px;
-        font-weight: 400;
-        font-size: 14px; }
-        .header__top__button_container__button_yellow {
-          cursor: pointer;
-          color: #000;
-          margin-left: 0.5rem;
-          margin-right: 0.5rem;
-          background: #f9ae17;
-          border-radius: 6px;
-          border-color: #767676;
-          padding: 1px 6px 1px 6px;
-          min-height: 30px;
-          font-weight: 400;
-          font-size: 14px; }
+      .header__top__button_container {
+        margin-bottom: 0.5rem; }
     .header__bottom {
       display: flex;
       flex-direction: row;
       align-items: center;
-      justify-content: center; }
+      justify-content: center;
+      text-align: left; }
       .header__bottom__image {
         max-width: 512px; }
       .header__bottom__text {
         max-width: 28rem; }
+        .header__bottom__text__message {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center; }
+          .header__bottom__text__message__store-image {
+            min-width: 150px; }
   .connect {
     min-width: 100%;
     min-height: 620px; }
@@ -265,30 +249,34 @@
         text-align: right;
         max-width: 448px; }
       .connect__main__image-container {
-        max-width: 512px; }
+        position: static; }
+        .connect__main__image-container img {
+          max-width: 448px;
+          display: block; }
   .pools {
     min-width: 100%;
     max-height: 452px; }
     .pools__main {
       position: relative;
-      top: -126px;
+      top: -20px;
       display: flex;
       flex-direction: row;
       align-items: center;
       justify-content: center; }
-      .pools__main__image-container {
+      .pools__main__image-container__mobile_image {
+        display: none; }
+      .pools__main__image-container__desktop_image {
+        display: block;
+        max-width: 448px;
         z-index: 10; }
-        .pools__main__image-container__mobile_image {
-          display: none; }
-        .pools__main__image-container__desktop_image {
-          max-width: 512px;
-          z-index: 10; }
       .pools__main__text {
+        text-align: left;
         max-width: 448px; }
   .challenges {
     min-width: 100%;
     min-height: 622px; }
     .challenges__main {
+      margin-top: 0;
       display: flex;
       flex-direction: row;
       align-items: center;
