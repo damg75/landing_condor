@@ -237,10 +237,16 @@
       .header__bottom__text {
         max-width: 28rem; }
         .header__bottom__text__message {
+          text-align: left;
+          margin: 0;
           display: flex;
           flex-direction: column;
           align-items: center;
           justify-content: center; }
+          .header__bottom__text__message p:first-child {
+            width: 100%; }
+          .header__bottom__text__message div {
+            width: 100%; }
           .header__bottom__text__message__store-image {
             min-width: 150px; }
   .connect {
